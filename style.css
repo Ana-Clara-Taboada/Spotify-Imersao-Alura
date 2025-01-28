@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+
+.sidebar_navigation{
+   background-color: #121212;
+   border-radius: 8px; 
+   padding: 16px 0 0 16px;
+
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar_navigation .logo{
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+/*Está especificando que a edição é para a logo dentro do sidebar_navigation*/
+
+
+.logo img{
+    width: 80px;
+}
+/*Está especificamente editando a imagem dentro dessa classe*/
+/* se colocasse .logo,imagem{ a formatação seria para a logo e para a imagem}*/
+
+.sidebar nav ul{
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+/*Estilo da ul*/
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+/*Estilo do a */
+
+.sidebar ul li{
+    padding: 10px 0;
+}
+/*Estilo da li*/
